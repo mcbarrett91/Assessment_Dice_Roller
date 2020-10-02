@@ -1,0 +1,21 @@
+.dice {
+  border: 1px solid black;
+  color: purple;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  float: left;
+  margin: 1px;
+  padding: 1px;
+}
+
+/* gradient made with cssgradient.io */

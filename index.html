@@ -3,10 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Dice Roller</title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    Enter the number of sides: <input type="text" id="sides" />
+    <br />
+    Enter a number of dice: <input type="text" id="user" />
+    <button id="roll-button">Roll!</button>
+    <button id="reset">RESET</button>
+    <br />
+
+    Total:
+    <u><span id="total-rolls">&nbsp;&nbsp;&nbsp;&nbsp;</span></u>
+    <br /><br />
+
+    <button id="show-rolls">Show All Rolls</button>
+    <ol id="all-rolls"></ol>
+
     <script src="assets/javascript/main.js"></script>
   </body>
 </html>
